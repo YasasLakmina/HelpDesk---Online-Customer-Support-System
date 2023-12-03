@@ -1,0 +1,344 @@
+body {
+  background: linear-gradient(86deg, #2e3165, #7380a1);
+  margin: 0;
+}
+.sidebar {
+  width: 250px;
+  height: calc(100vh - 138px);
+  position: absolute;
+  left: 0;
+  top: 121px;
+  height: 100%;
+  background-color: #7380a1;
+  padding-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.sidebar ul li a:hover {
+  background-color: #ddd;
+}
+
+.content {
+  margin-left: 10px; /* Set margin to match the sidebar width */
+  padding: 20px;
+}
+
+.subtitle {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.grid-5 {
+  display: inline-grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  width: calc(100%);
+}
+.grid-5 .box {
+  box-shadow: 0 0 5px #000;
+  padding: 20px;
+}
+.grid-5 .box .text1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+.grid-5 .box .text2 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.grid-2 {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  width: calc(100%);
+}
+.grid-2 .box {
+  box-shadow: 0 0 5px #000;
+  padding: 20px;
+
+  height: 200px;
+  overflow-y: scroll;
+  padding-bottom: 10px;
+}
+.icon {
+  width: 30px;
+  margin-right: 10px;
+}
+.grid-2 .box .x {
+  display: flex;
+  margin-bottom: 10px;
+}
+.grid-2 .box .text1 {
+  width: calc(100% - 100px);
+  overflow: hidden;
+  height: 35px;
+  font-size: 18px;
+  line-height: 40px;
+}
+.grid-2 .box button {
+  width: 100px;
+}
+.mt {
+  margin-top: 10px;
+}
+.grid-3 {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  width: calc(100%);
+}
+.grid-3 .box {
+  box-shadow: 0 0 5px #000;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+.box {
+  background-color: #ffffff85;
+}
+.grid-3 .box .x {
+  display: flex;
+  margin-bottom: 10px;
+}
+.grid-3 .box .text1 {
+  width: calc(100% - 210px);
+  overflow: hidden;
+  height: 35px;
+  font-size: 18px;
+  line-height: 40px;
+}
+.grid-3 .box .text2 {
+  width: calc(100% - 110px);
+}
+.grid-3 .box .text2 input {
+  width: 100%;
+  font-size: 18px;
+  height: 35px;
+}
+.grid-3 .box .act {
+  width: 100px;
+  margin-right: 10px;
+}
+.grid-3 .box .rjt {
+  width: 100px;
+}
+.grid-3 .box .chk {
+  width: 100px;
+  margin-left: 20px;
+  height: 35px;
+}
+
+.aut {
+  height: 35px;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.header {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  background-color: #7380a1;
+  justify-content: space-between;
+}
+
+.logo1 {
+  width: 150px;
+}
+
+.logo2 {
+  width: 60px;
+}
+
+.title {
+  font-family: inter, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin-right: 4%;
+}
+
+.title .text1 {
+  color: #2e3165;
+}
+
+.title .text2 {
+  color: #7380a1;
+}
+
+.header2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.button1 a {
+  text-decoration: none;
+  color: #a7adbe;
+}
+
+.button1 button {
+  margin-bottom: 5px;
+  float: right;
+  color: rgb(207, 207, 227);
+  background-color: #7380a1;
+  color: black;
+  border: 0px solid #e7e7e7;
+  padding: 8px;
+}
+
+button:hover {
+  background-color: #2e3165;
+}
+
+.button1 .login {
+  margin-left: 4px;
+}
+
+.button1 .login,
+.signin {
+  border-radius: 7px;
+}
+
+.header2 {
+  background-color: #7380a1;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav li {
+  float: left;
+}
+/*direct child selecter (>) will affect only in the li tag || The > symbol is placed between the parent and child to specify that you want to select only the direct child elements.*/
+.nav li > a,
+.dropbtn {
+  display: inline-block;
+  color: #a7adbe;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li > a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #a7adbe;
+}
+
+.nav li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  background-color: #a7adbe;
+  width: 100%;
+}
+
+.f1 {
+  margin-top: 35px;
+  margin-left: 5px;
+}
+
+.f1 a {
+  font-size: 12px;
+  color: #2e3165;
+}
+
+.icons a {
+  float: left;
+  display: flex;
+  height: 20px;
+  margin-top: 4px;
+  padding-right: 10px;
+}
+
+.f2 {
+  margin-top: 50px;
+}
+
+.f2 li {
+  padding-right: 8px;
+  display: inline;
+  font-size: 12px;
+}
+.f2 a {
+  color: #a7adbe;
+}
+
+.f2 p {
+  font-size: 12px;
+  margin-left: 45px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.f3 .logo1 {
+  margin-top: 25px;
+}
+
+.btn {
+  background-color: #a7adbe;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #2e3165;
+  border: none;
+  cursor: pointer;
+}
