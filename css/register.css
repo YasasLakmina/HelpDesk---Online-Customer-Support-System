@@ -1,0 +1,130 @@
+/*register page css*/
+
+.registerForm {
+   
+    width: 30%;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 35px;
+    padding-right: 2px;
+    background-color: #90aac3;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 35%;
+    margin-right:38%;
+    margin-top: 50px;
+    background-size:cover;
+  
+  }
+
+#check{
+   margin-top: 3px; 
+}
+
+.fnameLname{
+
+    margin-bottom: 22px;
+    
+}
+
+.fname{
+    
+    float:left;
+    border: none;
+    border-radius: 7px;
+    width:40%;
+    font-size: 14px;
+    font-weight: 500;
+    height: 20px;
+    padding: 11px;
+    border: 2px solid white;
+    margin-top: 30px;
+
+
+}
+
+#uname{
+
+    margin-top: 25px;
+}
+
+.lname{
+
+    float:left;
+    border: none;
+    border-radius: 7px;
+    width:40%;
+    font-size: 14px;
+    font-weight: 500;
+    height: 20px;
+    padding: 11px;
+    border: 2px solid white;
+    margin-top: 30px;
+    margin-left: 16.5px;
+   
+ 
+}
+
+
+.otherinput{
+
+    margin-top: 10px;
+    border: none;
+    border-radius: 7px;
+    width: 90%;
+    font-size: 14px;
+    font-weight: 500;  
+    height: 20px;
+    padding: 12px;
+}
+
+#sub {
+    display: block;
+    font-weight: 600;
+    width: 95.5%;
+    padding: 10px 4px;
+    background-color: #5b78ad;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.25s;
+    
+
+  }
+
+#sub:hover{
+    background-color: #2a476e;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    transform: scale(1.03);
+  
+}
+
+.lasttext
+{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 27px;
+}
+
+.formhed
+{
+    margin-top: 30px;
+    margin-left: 25%;
+
+}
+
+.r123
+{   
+    background-image: url("../Images/blue.png");
+    background-size:cover;
+    background-position: center;
+    
+}
+
+

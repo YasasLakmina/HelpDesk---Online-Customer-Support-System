@@ -1,0 +1,142 @@
+ /*faq CSS*/
+
+  .faq-img{
+    width: 40px;
+    height: 40px;
+    padding-left: 10pt;
+  }
+
+  .align-left {
+    text-align: left;
+  }
+
+  .faq-text{
+    font-size: 40px;
+    color: rgb(54, 13, 13);
+    align-content: left;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  
+  body {
+    display: flex;
+  }
+
+  .faq-container {
+    padding-top: 15px;
+    width: 50%;
+    margin-left: 3px;
+    font-family: Arial, sans-serif;
+    
+  }
+
+  .question {
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: #4571aa;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    width: 600px;
+  }
+
+  .answer {
+    display: none;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color:rgb(189, 217, 255);
+    border-radius: 10px;
+    color: #000000;
+    width: 600px;
+  }
+
+  .answer.show {
+    display: block;
+  }
+
+
+  .vertical-line {
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 400px;
+    margin-left: 10px;
+    
+  }
+
+  /* FAQ FORM */
+
+
+  .form-box {
+    width: 400px;
+    padding-left:  20px;
+    padding-top: 20px;
+    padding-right:  20px;
+    padding-bottom:  20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-left: 100PX;
+    background-color: #426da5;
+    font-weight: 100;
+  }
+
+  .form-box-text{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+
+  
+  
+
+  .form-box-submit {
+    background-color: #444444;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .container {
+      display: flex;
+    }
+
+    .left-section, .right-section {
+      width: 50%;
+      
+    }
+
+    .left-section {
+      padding: 5px;
+    }
+
+    .right-section {
+      
+     
+      padding-left: 100px;
+     
+    }
+
+
+  .table-dec{
+    
+    
+    padding-top: 10px;
+    padding-left: 5px;
+
+
+  }
+.formtext1{
+  font-weight: 500;
+}
+
+.verticleline{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}

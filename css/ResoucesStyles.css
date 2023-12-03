@@ -1,0 +1,164 @@
+
+  /*resorces css*/
+
+  .top{
+    background-color: #2d3e47;
+    padding-bottom: 5px;
+    margin: 10px;
+    
+  }
+
+.h2-resources{
+    color: #ffffff;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 30%;
+  }
+
+  .p-resources{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-align: center;
+  }
+ 
+  .container11 {
+    display: flex;
+    padding: 5px;
+    margin: 20px;
+    justify-content: center;
+  }
+  
+  .box {
+    width: 250px;
+    height: 550px;
+    background-color: #abd4db;
+    text-align: center;
+    line-height: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+  }
+  
+  .box a {
+    text-decoration: none;
+    color: #b8183b;
+    display: block;
+  }
+  
+
+
+  .faq-imge{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    
+  }
+
+  .submit-form{
+    background-color: #abd4db;
+    height: 190px ;
+  }
+
+  
+  
+
+  .h1-resources{
+
+    color: #112f35;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+  }
+
+  
+  /*education*/
+
+  .section11{
+    background-color: #b5c3c4;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #112f35;
+    border-radius: 10px;
+  }
+
+  .edu-h2{
+      text-align: left;
+      color: #470808;
+
+  }
+
+  .edu-p{
+    text-align: justify;
+    padding: 5px;
+  }
+
+
+  /*business*/
+
+  .section22{
+    background-color: #cef7f7;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #551616;
+  }
+
+   /*Health*/
+
+   .section33{
+    background-color: #afcfe2;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #551616;
+  }
+/*resource form*/
+
+
+.frm {
+  background-color: #ffecf6;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+
+
+input[type="name"],
+input[type="email"],
+input[type="phone"],
+input[type="Category"],
+textarea {
+  width: 1230px;
+  padding: 10px;
+  padding-right: 20px;
+  border: 1px solid #410a0a;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #691313;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #a05745;
+}
+
+.ifyou{
+  margin-left:25px;
+}

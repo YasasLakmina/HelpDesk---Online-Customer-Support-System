@@ -1,0 +1,121 @@
+/*userLogin */
+
+body {font-family: Helvetica Neue, sans-serif;}
+
+/* Full-width input fields */
+.textbox {
+  
+  padding: 14px 40px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius:10px;
+  box-sizing: border-box;
+}
+/*picture */
+.avatar{
+     width: 5%;
+   height: 2.5%;
+   border-radius: 50%;
+   position: above;
+   margin-top: -30px;
+   }
+
+
+/* Set a style for all buttons */
+.button5 {
+   color: white;
+   margin: 8px 0;
+   cursor: pointer;
+   background-color:#5160b4;
+   display:block;
+   margin:20px 0px 18px;
+   text-align:center;
+   border-radius:12px;
+   padding:11px 50px;
+   outline:none;
+   color:white;
+   transition:0.25s;
+   font-size:14px;
+   font-weight: bold;
+}
+
+.a1{
+	text-decoration:none;
+	color:rgb(56, 56, 128);
+}
+
+.button5:hover {
+  background-color :rgb(56, 56, 128);
+  -webkit-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  -o-transform: scale(1.06);
+  transform: scale(1.06);
+
+}
+
+.text{
+	margin-right :170px;
+}
+.container {
+  padding: 16px;
+}
+span.psw {
+ 
+  padding-top: 2px;
+}
+
+
+.Login1{
+   width: 300px;
+	height: 330px;
+	background-color:rgb(0,0,0,.6);
+   margin:auto;
+   color:#FFFFFF;
+   padding:10x 10px 10px 0px;
+   border-radius:12px 12px 12px 12px;
+
+  }
+.sign1{
+	 width: 300px;
+	height: 50px;
+	background-color:rgb(0,0,0,.6);
+   margin:auto;
+   color:#FFFFFF;
+   padding:10x 10px 10px 10px;
+   border-radius:12px 12px 12px 12px;
+   
+ }
+
+body {
+  background: #d5eaf2;
+  font-family: 'Roboto', Arial, Helvetica, Sans-serif,Verdana;
+}  
+    
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+

@@ -1,0 +1,145 @@
+
+    
+/*about us*/
+
+.h1{
+    color: rgb(130, 10, 10);   
+    padding-top: 20pt;
+    padding-bottom: 10pt;
+    margin-left: 20px;
+}
+
+.intro {
+    background-color:#798fa2; 
+    text-align: center;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+  }
+
+  .p2 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 600;
+  }
+
+  
+  .p1 {
+    font-size:14px;
+    padding: 20px;
+  }
+  
+
+
+h2{
+    text-align: center ;
+    color: #2a476e;
+    padding-top: 20pt;
+    padding-right: 10pt;
+    padding-bottom: 10pt;
+    
+}
+
+
+
+.container {
+    overflow: hidden; 
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10pt;
+    padding-top: 10pt;
+    padding-right: 10pt;
+    padding-bottom: 5pt;
+  }
+  
+.side-element{
+    float: left; 
+    width: 20%;
+    }
+
+.main-content {
+       
+    float: left;
+    width: 20%;
+    background-color: white;
+    padding-left: 30pt;
+    padding-top: 47pt;
+    padding-bottom: 20pt;
+    padding-right: 30pt;
+    }
+
+
+.right-side {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    }
+
+
+.image-container {
+    display: flex;
+    background-color: #757d9c;
+    }
+      
+.parallel-images {
+    display: flex;
+    flex-direction: column;
+}
+      
+.parallel-images img {
+    width: 300px;
+    height: auto; 
+    padding-left: 10pt;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    padding-right: 10pt;
+}
+      
+
+.single-image img {
+    width: 400px; 
+    height: auto; 
+    padding-top: 60pt;
+    padding-bottom: 10pt;
+    padding-right: 10pt;
+}
+
+
+
+.image-container2 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:#ffffff;
+  }
+  
+  .image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 60px; 
+    background-color:#fffeff;
+  }
+  
+  .image-wrapper img {
+    padding-top: 20pt;
+    padding-left: 5pt;
+    width: 100px; 
+    height: 100px; 
+  
+  .caption {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 12px;
+    color:rgb(92, 10, 10);
+    font-weight: bold;
+  }
+
+  
+
+
+  }

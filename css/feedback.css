@@ -1,0 +1,135 @@
+/*feedback css*/
+
+input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    
+  }
+  
+  label:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "\2605"; /* Unicode for a star symbol */
+    font-size: 30px;
+    transition: color 0.3s ease;
+  }
+  
+  input[type="radio"]:checked + label:before {
+    color: gold; /* Change the color when the radio button is checked */
+  }
+
+.formback{
+  background-image: url("../Images/f3.png");
+  background-image: cover;
+  background-size:initial;
+  width: 100%;
+
+}
+
+
+.formback{
+    
+   
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a transparent background color to the form container */
+    padding: 20px;
+   
+
+}
+
+.form{
+    
+  font-size: 16px;
+  font-weight: 600;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #adc1dc;
+  border:#2a476e;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.formdropdown{
+
+    margin-top: 4px;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;    
+
+}
+
+.txtarea{
+
+    margin-top: 4px;
+    border: none;
+    padding-top: 2px;
+    padding-left: 1px;
+    border-radius: 7px;
+    width: 95%;
+    padding: 12px;
+    font-size: 14px; 
+    
+}
+
+.email{
+    margin-top: 4px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    width: 95%;
+    font-size: 14px;
+    font-weight: 500;  
+
+    font-size: 14px; 
+    
+    padding: 12px;
+}
+
+.agree{
+
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#subBtn {
+    display: block;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px;
+    background-color: #5b78ad;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.25s;
+
+  }
+
+#subBtn:hover{
+    background-color: #2a476e;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    transform: scale(1.03);
+  
+}
+
+.formhed{
+    margin-left: 30%;
+    font-size: 30px;
+    
+}

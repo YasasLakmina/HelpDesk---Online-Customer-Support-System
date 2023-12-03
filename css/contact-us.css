@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+/* Whole Doc */
+body{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    background-position: top center;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    background-color: #b3bccf;
+}
+
+body::before{
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background: #34495E;
+}
+
+/* Contact Section */
+.contact-section{
+    margin-bottom: 200px;
+    position: relative;
+    margin-top: -150px;
+    margin-left: 30%;
+    top: 180px;
+    width: 40%;
+    background: #46596a;
+    padding: 40px 0;
+
+
+}
+
+
+/* Heading */
+.contact-section h1{
+    text-align: center;
+    color: #ecf0f1;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+}
+
+.border{
+    width: 100px;
+    height: 6px;
+    background: #6e2d26;
+    margin: 20px auto;
+}
+
+/* Form */
+.contact-form{
+    
+    max-width: 500px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: none;
+    padding: 20px 40px;
+    outline: none;
+    color: #2c3e50;
+}
+
+
+
+textarea{
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn{
+	float: left;
+    width: 100%;
+    height: 5vh;
+    font-size: 1rem;
+    background: #6e2d26;
+    outline: none;
+    border: none;
+    color: #ecf0f1;
+    cursor: pointer;
+}
+
+.contact-form-btn:hover{
+    background: #aec5f3;
+    color: #000000;
+    font-size: 1.1rem;
+}
+

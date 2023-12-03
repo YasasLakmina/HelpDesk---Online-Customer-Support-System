@@ -1,0 +1,55 @@
+body {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.timg{
+    width: 30%;
+    height: 30%;
+}
+
+header {
+    background-color: #798fa2;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+#teams {
+    padding-left: 30pt;
+    padding-top: 47pt;
+    padding-bottom: 20pt;
+    padding-right: 30pt;
+}
+
+
+.team,
+.condition {
+    margin-bottom: 20px;
+}
+
+.team h3,
+.condition h3 {
+    font-size: 18px;
+    color: #2a476e;
+}
+
+.team p,
+.condition p {
+    font-size: 14px;
+    color: #666;
+}
+
+strong
+{
+    color: black;
+}
